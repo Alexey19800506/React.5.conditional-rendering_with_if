@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = props => {
     return (
-        <button onClick={props.onLogin}>Login</button>
+        <button className='btn login' onClick={props.onLogin}>Login</button>
     );
   }
 
